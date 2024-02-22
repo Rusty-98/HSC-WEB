@@ -3,6 +3,7 @@ import Footer2 from "./Components/Footer/Footer2"
 import First from "./Components/Home/First"
 import Home from "./Components/Home/Home"
 import Name from "./Components/Home/Name"
+import Team from "./Components/Team/Team"
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Home />
         <Footer />
         <Footer2 />
+        <Team />
       </div>
     </>
   )

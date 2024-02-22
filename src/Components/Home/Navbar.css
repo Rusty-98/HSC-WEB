@@ -1,24 +1,39 @@
-@font-face {
-    font-family: 'Sam';
-    src: url(../public/SAMAN___.ttf);
+.NavbarItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 100%;
+    border-radius: 13px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    /* position: fixed;
+    top: 0px;
+    left: 50%; */
+    /* transform: translate(-50%);
+    z-index: 9999; */  
+    background-color: rebeccapurple;
+    
 }
 
-.name{
-    font-family: 'Sam';
-    color: white;
-    background-image: url(../public/back-name.avif);
-    -webkit-background-clip: text;
-    color: transparent;
-}
 
-
-.img {
+nav img {
     width: 100px;
-    background-color: aqua;
     cursor: pointer;
 }
 
-.menu {
+.navlogo {
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+}
+
+
+
+
+.nav-menu {
     display: grid;
     grid-template-columns: repeat(6, auto);
     grid-gap: 10px;
@@ -26,16 +41,59 @@
     align-items: center;
 }
 
-.icons {
+
+.nav-links {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.7rem 1rem;
+    white-space: nowrap;
+}
+
+
+.nav-links i {
+    padding-right: 10px;
+}
+
+.nav-links:hover {
+    background: #01959a;
+    color: #fff;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-links-mobile {
     display: none;
 }
+
+button {
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #151516;
+    color: #fff;
+}
+
+.menu-icons {
+    display: none;
+}
+
 
 @media screen and (max-width: 850px) {
     .NavbarItems {
         z-index: 99;
     }
 
-    .menu {
+    .nav-menu {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -53,7 +111,7 @@
         border-radius: 13px;
     }
     
-    .active {
+    .nav-menu.active {
         left: 0;
         opacity: 1;
         z-index: -1;

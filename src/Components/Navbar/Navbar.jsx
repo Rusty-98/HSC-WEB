@@ -12,7 +12,7 @@ const Navbar = () => {
 
     return (
         <nav className="NavbarItems">
-            <img src="src\assets\logo.png" alt="" />
+            <img src="\logo.png" alt="" />
 
             <div className="menu-icons" onClick={handleClick}>
                 <i className={clicked ? "fas fa-times" : "fas fa-bars"}></i>

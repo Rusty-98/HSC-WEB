@@ -23,8 +23,8 @@ const Name = () => {
     };
     return (
         <>
-            <div className='w-full fixed top-0 left-0 h-[60px] z-20 bg-red-600'>
-                <img src="#" alt="hello" className='img' />
+            <div className='w-full flex fixed top-0 left-0 h-[60px] md:h-[80px] z-20 bg-transparent backdrop-blur-xl'>
+                <img src="/logo.png" alt="hello" className='img' />
                 <div className="icons" onClick={handleClick}>
                     <i className={clicked ? "fas fa-times" : "fas fa-bars"}></i>
                 </div>

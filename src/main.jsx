@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import './index.css'
 import Event from './Components/Events/Event.jsx';
+import Team from './Components/Team/Team.jsx';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "/Events",
     element: <Event />,
+  },
+  {
+    path: "/Team",
+    element: <Team />,
   },
 ]);
 

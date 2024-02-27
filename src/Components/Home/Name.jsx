@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './first.css'
 import { MenuItems } from '../Navbar/MenuItems';
 import { Link } from 'react-router-dom';
+import Navbar from '../Navbar/Navbar';
 
 const Name = () => {
 
@@ -23,7 +24,7 @@ const Name = () => {
     };
     return (
         <>
-            <div className='w-full flex fixed top-0 left-0 h-[60px] md:h-[80px] z-20 bg-transparent backdrop-blur-xl'>
+            {/* <div className='w-full flex fixed top-0 left-0 h-[60px] md:h-[80px] z-20 bg-transparent backdrop-blur-xl'>
                 <img src="/logo.png" alt="hello" className='img' />
                 <div className="icons" onClick={handleClick}>
                     <i className={clicked ? "fas fa-times" : "fas fa-bars"}></i>
@@ -41,7 +42,8 @@ const Name = () => {
                     })}
                     <button>Throwback</button>
                 </ul>
-            </div>
+            </div> */}
+            <Navbar />
             <div className='name absolute text-[12vh] md:text-[14vw] text-center flex items-center justify-center top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] select-none bg-[#2322226b] rounded-xl -py-3 px-4 pointer-events-none leading-none'>
                 Tarang
             </div>

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { MenuItems } from "./MenuItems";
 import { Link } from "react-router-dom";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const Navbar = () => {
     const [clicked, setClicked] = useState(false);

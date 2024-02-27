@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Sam';
-    src: url(../public/SAMAN___.ttf);
+    src: url(/SAMAN___.ttf);
 }
 
 .name{
     font-family: 'Sam';
     color: white;
-    background-image: url(../public/back-name.avif);
+    background-image: url(/back-name.avif);
     -webkit-background-clip: text;
     color: transparent;
 }
@@ -14,7 +14,7 @@
 
 .img {
     width: 100px;
-    background-color: aqua;
+    /* background-color: aqua; */
     cursor: pointer;
 }
 

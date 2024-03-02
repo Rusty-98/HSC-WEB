@@ -147,8 +147,8 @@ function Event() {
       let value = window.scrollY;
       console.log(value);
       if (text !== null) {
-        if (value < 100)
-          text.style.marginTop = value * 2.468 + 'px';
+        if (value < 120)
+          text.style.marginTop = value * 0.68 + 'px';
         leaf1.style.top = value * -1.5 + 'px';
         leaf1.style.left = value * 1.5 + 'px';
         hill55.style.left = value * 1.5 + 'px';
@@ -191,11 +191,11 @@ function Event() {
   return (
     <>
     <Navbar />
-      <div >
+      <div className="mt-[60px]" >
         <div id="crd">
           <div className="h-auto bg-[url(https://static.vecteezy.com/system/resources/previews/023/372/025/non_2x/tropical-beach-with-ocean-sunset-and-palm-trees-cartoon-summer-view-illustration-with-summer-background-generative-ai-free-photo.jpeg)] bg-top bg-no-repeat bg-cover">
             <div className="box-border overflow-hidden">
-              <section onScroll={parallax()} className="  relative flex justify-center h-[40vw] sm:h-[40vw] md:h-[60vw] overflow-hidden">
+              <section onScroll={parallax()} className="  relative flex justify-center h-[57vw] sm:h-[40vw] md:h-[60vw] overflow-hidden">
 
                 <img id="hill1" className="absolute top-[1vw] left-0 w-[100%] pointer-events-none" src={hill1} alt=""></img>
                 <img id="hill2" className="absolute top--3 left-0 w-[100%] pointer-events-none" src={hill2} alt="" />
@@ -203,7 +203,7 @@ function Event() {
                 <img id="hill4" className="absolute top--1 left-0 w-[100%] pointer-events-none" src={hill4} alt=""></img>
                 <img id="hill5" className="absolute top--1 left-0 w-[100%] pointer-events-none" src={hill5} alt=""></img>
                 <img id="tree" className="absolute top--3 left-0 w-[100%] pointer-events-none" src={tree} alt=""></img>
-                <h2 id="text" className="p-[7vw] absolute text-[8em] text-[#160f29] drop-shadow-2xl font-anta"><strong>EVENTS</strong></h2>
+                <h2 id="text" className="p-[7vw] absolute text-[15vw] sm:text-[9em] text-[#160f29] drop-shadow-2xl font-anta"><strong>EVENTS</strong></h2>
                 <img id="plant" className="absolute top-[4vw] left-0 w-[100%] pointer-events-none" src={plant} alt=""></img>
                 <img id="leaf" className="absolute top-0 left-0 w-[100%] pointer-events-none" src={leaf} alt=""></img>
               </section>

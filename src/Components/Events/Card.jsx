@@ -5,7 +5,7 @@ export default function Card(props){
         // <div className=" text-white flex min-h-screen items-center justify-center bg-neutral-900">
         //  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             <div className="rounded-lg inline-block m-4 group relative items-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-black/30 transition-shadow">
-                <div className="h-96 w-72">
+               <div className="h-[70vw] w-[60vw] sm:h-96 sm:w-72"> {/*h-96 w-72 */}
                     <img className="h-full w-full object-cover group-hover:rotate-1 group-hover:scale-125 transition-transform duration-500" src={props.img} alt="" />
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group:hover-to-black/70"></div>

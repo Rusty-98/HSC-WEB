@@ -10,7 +10,7 @@ const Team = () => {
     <>
       <Navbar />
       <div className='team-container'>
-        <h1>Meet Our Teams</h1>
+        <h1 >Meet Our Teams</h1>
 
         <section className="team-section">
           <h2>Logistics</h2>

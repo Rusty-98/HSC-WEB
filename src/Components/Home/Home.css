@@ -22,3 +22,33 @@
     background-position: center;
     object-fit: contain;
 }
+
+@media screen and (min-width: 350px) {
+    .para {
+        font-size: 1.25rem;
+
+    }   
+
+    .cont{
+        font-size: 2.01rem;
+    }
+    
+    .insta{
+        height: 32px;
+    }
+    
+}
+
+@media screen and (min-width: 400px) {
+    .para {
+        font-size: 1.5rem;
+    }    
+
+    .cont{
+        font-size: 3.75rem;
+    }
+
+    .insta{
+        height: 40px;
+    }
+}

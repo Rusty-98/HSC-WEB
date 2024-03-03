@@ -9,9 +9,9 @@ export default function Card(props){
                     <img className="h-full w-full object-cover group-hover:rotate-1 group-hover:scale-125 transition-transform duration-500" src={props.img} alt="" />
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group:hover-to-black/70"></div>
-                <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[49%] group-hover:translate-y-0 transition-all duration-500">
+                <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center sm:translate-y-[49%] group-hover:translate-y-0 transition-all duration-500">
                     <h1 className="text-3xl font-bold text-white font-anta">{props.title}</h1>
-                    <p className="text-lg italic text-white mb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-body">{props.description}</p>
+                    <p className="text-lg italic text-white mb-3 sm:opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-body">{props.description}</p>
                     <button className="rounded-full shadow shadow-black/60 bg-neutral-900 py-2 px-3.5 text-sm capitalize text-white font-body">See More</button>
                 </div>
             </div>

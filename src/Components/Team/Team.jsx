@@ -1,6 +1,6 @@
 // import React from 'react';
 import './Team.css';
-import Hover from './Hover/Hover';
+import Hover2 from './Hover/Hover2';
 import Marqueex from './marquee/marquee';
 import Navbar from '../Navbar/Navbar';
 import Footer2 from '../Footer/Footer2';
@@ -142,7 +142,7 @@ const getTeamMembers = (teamName) => {
 
   return teamMembers[teamName].map((item) => (
     <div key={item.id} className="card-wrapper">
-      <Hover id={item.id} name={item.name} role={item.roll} />
+      <Hover2 id={item.id} name={item.name} role={item.roll} />
     </div>
   ));
 };

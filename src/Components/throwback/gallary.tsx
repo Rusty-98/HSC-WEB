@@ -18,6 +18,8 @@ import { arrayMove, SortableContext, sortableKeyboardCoordinates, useSortable } 
 
 import photoSet from "./photos";
 import "./gallary.css";
+import Navbar from "../Navbar/Navbar";
+import Footer2 from "../Footer/Footer2";
 
 interface SortablePhoto extends Photo {
   id: UniqueIdentifier;
@@ -135,6 +137,8 @@ export default function Throwback() {
   };
 
   return (
+    <>
+    <Navbar />
     <DndContext
       sensors={sensors}
       collisionDetection={closestCenter}
@@ -148,5 +152,7 @@ export default function Throwback() {
       </SortableContext>
       <DragOverlay>{activeId && <PhotoFrame overlay {...renderedPhotos.current[activeId]} />}</DragOverlay>
     </DndContext>
+    <Footer2 />
+    </>
   );
 }

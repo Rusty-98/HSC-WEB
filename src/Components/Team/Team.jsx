@@ -3,6 +3,7 @@ import './Team.css';
 import Hover from './Hover/Hover';
 import Marqueex from './marquee/marquee';
 import Navbar from '../Navbar/Navbar';
+import Footer2 from '../Footer/Footer2';
 // import all_product from '../Assets/all_product';
 // import ThrowBack from '../throwback/throwback';
 
@@ -80,6 +81,7 @@ const Team = () => {
         <div><Marqueex></Marqueex></div>
         {/* <div><ThrowBack></ThrowBack></div> */}
       </div>
+      <Footer2 />
     </>
   );
 };

@@ -18,15 +18,11 @@ export const MenuItems = [
       icon : "fa-solid fa-people-group"
     },
     {
-      title : "Merch",
-      url : "/Merch",
+      title : "Throwback",
+      url : "/throwback",
       cName : "nav-links",
       icon : "fa-solid fa-shirt"
     },
-    {
-      title : "Throwback",
-      url : "/Throwback",
-      cName : "nav-links-mobile",
-    }
+    
   ];
   

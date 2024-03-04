@@ -14,6 +14,7 @@ import plant from '/plant.png';
 import tree from '/tree.png';
 import './event.css';
 import Navbar from "../Navbar/Navbar.jsx";
+import Footer2 from "../Footer/Footer2.jsx";
 
 function Event() {
   const [eve, setEvent] = React.useState(0);
@@ -29,7 +30,7 @@ function Event() {
 
     window.addEventListener('scroll', () => {
       let value = window.scrollY;
-      console.log(value);
+      // console.log(value);
       if (text !== null) {
         if(window.matchMedia('(max-width: 767px)').matches){
         if (value < 120)
@@ -77,11 +78,11 @@ function Event() {
   }
 
   function HandleClick(getid) {
-    console.log(getid);
+    // console.log(getid);
     document.getElementById("crd").classList.toggle('active');
     document.getElementById("tablet").classList.toggle('active');
     const newObj = list[getid - 1];
-    console.log(newObj);
+    // console.log(newObj);
     setTemp(newObj);
   }
   return (
@@ -135,6 +136,7 @@ function Event() {
           />
         </div>
       </div>
+      <Footer2 />
     </>
   );
 }

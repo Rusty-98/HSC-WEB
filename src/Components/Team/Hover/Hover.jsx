@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hover.scss'
-import  img1 from '../Team/giga.jpg'
+import  img1 from '../Assets/giga.jpg';
 
 const Hover = (props) => {
   return (
@@ -18,8 +18,7 @@ const Hover = (props) => {
     
     <p><br/>{props.role}</p>
     <ul className="cards__list">
-      <li><i className="fab fa-facebook-f"></i></li>
-      
+  
       <li><i className="fab fa-instagram"></i></li>
       <li><i className="fab fa-linkedin-in"></i></li>
     </ul>

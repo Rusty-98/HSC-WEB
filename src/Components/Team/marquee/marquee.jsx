@@ -2,7 +2,7 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 import "./marquee.css"
 // import img2 from '../Team/img.jpg';
-import  img2 from '../Assets/img.jpg'
+import  img2 from '../Assets/img.jpg';
 function Marqueex(props)
 {
     return (

@@ -4,31 +4,15 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
+  
 } from "react-router-dom";
 import './index.css'
-import Event from './Components/Events/Event.jsx';
-import Team from './Components/Team/Team.jsx';
+import AppWithFallback from './App.jsx'
+import EventWithFallback from './Components/Events/Event.jsx';
+import TeamWithFallback from './Components/Team/Team.jsx';
 
 import Gallary from './Components/throwback/gallary.tsx';
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-  },
-  {
-    path: "/Events",
-    element: <Event />,
-  },
-  {
-    path: "/Team",
-    element: <Team />,
-  },
-  {
-    path: "/throwback",
-    element:<Gallary/>
-  },
-]);
+ 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -38,6 +22,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="/" element={<AppWithFallback />} />
           <Route path="/Events" element={<EventWithFallback />} />
           <Route path="/Team" element={<TeamWithFallback />} />
+          <Route path="/throwback" element={<Gallary />} />
         </Routes>
       </Suspense>
     </Router>

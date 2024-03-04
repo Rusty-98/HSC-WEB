@@ -1,9 +1,9 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import React, { Suspense } from 'react';
+import ReactDOM from 'react-dom/client';
 import {
-  createBrowserRouter,
-  RouterProvider,
+  BrowserRouter as Router,
+  Routes,
+  Route,
 } from "react-router-dom";
 import './index.css'
 import Event from './Components/Events/Event.jsx';
@@ -32,6 +32,14 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <Router>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Routes>
+          <Route path="/" element={<AppWithFallback />} />
+          <Route path="/Events" element={<EventWithFallback />} />
+          <Route path="/Team" element={<TeamWithFallback />} />
+        </Routes>
+      </Suspense>
+    </Router>
   </React.StrictMode>,
-)
+);

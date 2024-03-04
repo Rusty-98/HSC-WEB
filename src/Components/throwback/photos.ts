@@ -27,7 +27,7 @@ const unsplashPhotos = [
   { id: "xKhtkhc9HbQ", width: 1080, height: 1440 },
 ];
 
-const photos = unsplashPhotos.map((photo) => ({
+const photoSet = unsplashPhotos.map((photo) => ({
   src: unsplashLink(photo.id, photo.width, photo.height),
   width: photo.width,
   height: photo.height,
@@ -41,4 +41,4 @@ const photos = unsplashPhotos.map((photo) => ({
   }),
 }));
 
-export default photos;
+export default photoSet;

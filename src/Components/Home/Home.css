@@ -25,12 +25,13 @@
 
 @media screen and (min-width: 350px) {
     .para {
-        font-size: 1.25rem;
+        font-size: 1.20rem;
 
     }   
 
     .cont{
         font-size: 2.01rem;
+        bottom: -48px;
     }
     
     .insta{
@@ -41,14 +42,15 @@
 
 @media screen and (min-width: 400px) {
     .para {
-        font-size: 1.5rem;
+        font-size: 1.55rem;
     }    
 
     .cont{
-        font-size: 3.75rem;
+        font-size: 3.35rem;
+        bottom: -68px;
     }
 
     .insta{
-        height: 40px;
+        height: 55px;
     }
 }

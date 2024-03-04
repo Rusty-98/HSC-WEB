@@ -84,7 +84,7 @@ const Home = () => {
                                 </div>
                                 <div className="relative w-[95%] md:w-2/3">
                                     <p className="para h-1/2 pt-2 md:pt-20 px-6 text-[#ddbea8] md:text-3xl text-center" data-aos="fade-up">{item.desc}</p>
-                                    <div className="cont absolute -bottom-12 md:bottom-10 h-10 md:text-6xl w-full flex justify-center items-center gap-10">
+                                    <div className="cont absolute md:bottom-10 h-10 md:text-6xl w-full flex justify-center items-center gap-10">
                                         <img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-instagram-icon-png-image_6315974.png" alt="" className="insta md:h-14 cursor-pointer text-[#ddbea8] hover:scale-[1.05]" onClick={() => handleInstaClickGruv(item.insta)} />
                                         {/* <GrInstagram className="cursor-pointer text-[#ddbea8] hover:scale-[1.05]" /> */}
                                         <IoCall className="cursor-pointer text-[#ddbea8] hover:scale-[1.05]" />

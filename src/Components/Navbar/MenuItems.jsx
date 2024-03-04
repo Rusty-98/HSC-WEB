@@ -25,8 +25,9 @@ export const MenuItems = [
     },
     {
       title : "Throwback",
-      url : "/Throwback",
-      cName : "nav-links-mobile",
+      url : "/throwback",
+      cName : "nav-links",
+      icon : "fa-solid fa-shirt"
     }
   ];
   

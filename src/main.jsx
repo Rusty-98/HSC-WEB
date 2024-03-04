@@ -8,8 +8,8 @@ import {
 import './index.css'
 import Event from './Components/Events/Event.jsx';
 import Team from './Components/Team/Team.jsx';
-//new
-// import ThrowBack from './Components/throwback/throwback.jsx';
+
+import Gallary from './Components/throwback/gallary.tsx';
 
 const router = createBrowserRouter([
   {
@@ -24,10 +24,10 @@ const router = createBrowserRouter([
     path: "/Team",
     element: <Team />,
   },
-  // {
-  //   path: "/Throwback",
-  //   element:<ThrowBack/>
-  // }
+    {
+      path: "/throwback",
+      element:<Gallary/>
+    }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

@@ -30,7 +30,7 @@ const Navbar = () => {
                         </li>
                     );
                 })}
-                <button>Throwback</button>
+                {/* <button onClick={'/throwback'}>Throwback</button> */}
             </ul>
         </nav>
     );

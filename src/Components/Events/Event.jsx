@@ -87,7 +87,6 @@ function Event() {
   }
   return (
     <>
-    <Navbar />
       <div className="mt-[60px]" >
         <div id="crd">
           <div className="h-auto bg-[url(https://static.vecteezy.com/system/resources/previews/023/372/025/non_2x/tropical-beach-with-ocean-sunset-and-palm-trees-cartoon-summer-view-illustration-with-summer-background-generative-ai-free-photo.jpeg)] bg-top bg-no-repeat bg-cover">
@@ -136,7 +135,6 @@ function Event() {
           />
         </div>
       </div>
-      <Footer2 />
     </>
   );
 }

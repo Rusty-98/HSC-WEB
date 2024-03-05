@@ -23,18 +23,15 @@ function App() {
   return (
     <>
       {loading ? (
-        <div className="preloader fixed top-0 left-0 w-screen h-screen flex justify-center items-center backdrop-blur-lg bg-black z-50">
-          <img src="/intro.gif" alt="Loading..." className='w-1/2 h-1/2' />
+        <div className="w-full h-screen absolute z-[9999] flex items-center justify-center backdrop-blur-xl">
+          <img src="/intro.gif" alt="" className='mx-auto rounded-3xl' />
         </div>
       ) : (
         <div className='w-full flex flex-col min-h-screen bg-black'>
-          {/* <Navbar /> */}
           <First />
           <Name />
           <Home />
           <Footer />
-          <Footer2 />
-          {/* <Team /> */}
         </div>
       )}
     </>

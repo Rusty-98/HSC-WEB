@@ -10,7 +10,6 @@ import teamMembers from './Assets/all_product';
 const Team = () => {
   return (
     <>
-      <Navbar />
       <div className='team-container'>
         <h1 >Meet Our Teams</h1>
 
@@ -116,7 +115,6 @@ const Team = () => {
           </div>
         </section>
       </div>
-      <Footer2 />
     </>
    
   );

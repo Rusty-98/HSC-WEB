@@ -138,7 +138,6 @@ export default function Throwback() {
 
   return (
     <>
-    <Navbar />
     <DndContext
       sensors={sensors}
       collisionDetection={closestCenter}
@@ -152,7 +151,6 @@ export default function Throwback() {
       </SortableContext>
       <DragOverlay>{activeId && <PhotoFrame overlay {...renderedPhotos.current[activeId]} />}</DragOverlay>
     </DndContext>
-    <Footer2 />
     </>
   );
 }

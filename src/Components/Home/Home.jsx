@@ -111,21 +111,21 @@ const data = [
     },
     {
         head: "GRUV",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat cumque nemo temporibus reiciendis,quaerat quae error soluta molestiae excepturi ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, dolorem? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, corporis?",
+        desc: "Gruv is the sole dance society of our college, offering a platform to express creativity through movement. Regardless of skill level or background, everyone is welcome to choreograph or interpret routines. We believe dance is inclusive, providing opportunities for all to grow as dancers, whether seasoned performers or beginners.",
         pic: "https://plus.unsplash.com/premium_photo-1675448891094-0f3acc556fdb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDV8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D",
         bg: './groove.jpg',
         insta: 'https://www.instagram.com/gruv_hbtu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
     },
     {
         head: "OCTAVE",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat cumque nemo temporibus reiciendis quaerat quae error soluta molestiae excepturi ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, dolorem? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, corporis?",
+        desc: "OCTAVE, HBTU's vibrant music society, is more than a club; it's a diverse musical family. From classical to modern, members blend talents, creating a unique symphony of unity. Embracing various genres, they nurture creativity and collaboration, celebrating every note's beauty. Joining OCTAVE means joining a harmonious family of melody-makers.",
         pic: "https://plus.unsplash.com/premium_photo-1675448891119-bda089d46450?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D",
         bg: './oct.png',
         insta: 'https://www.instagram.com/octave_hbtu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
     },
     {
         head: "KALAKASH",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat cumque nemo temporibus reiciendis,quaerat quae error soluta molestiae excepturi ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, dolorem? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, corporis?",
+        desc: "Kalakaksh, HBTU's official art club, embodies the timeless essence of art. From Leonardo da Vinci's Mona Lisa to Banksy's balloon girl, art has inspired generations. It mirrors love and culture, celebrating a nation's diversity. Kalakaksh transforms love into visual art, offering ample opportunities for talent to flourish and thrive.",
         pic: "https://plus.unsplash.com/premium_photo-1675448891094-0f3acc556fdb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDV8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D",
         insta: 'https://www.instagram.com/kalakaksh_hbtu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
     },

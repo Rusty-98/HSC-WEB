@@ -1,3 +1,5 @@
+import { TfiGallery } from "react-icons/tfi";
+
 export const MenuItems = [
     {
       title : "Home",
@@ -21,8 +23,8 @@ export const MenuItems = [
       title : "Throwback",
       url : "/throwback",
       cName : "nav-links",
-      icon : "fa-solid fa-shirt"
-    },
+      icon : "fa-solid fa-images"
+    }  
     
   ];
   

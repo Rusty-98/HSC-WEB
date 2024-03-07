@@ -2,7 +2,7 @@
 
     const teamMembers = {
       Logistics: [
-        { id: 1, name: 'Divyansh Verma', roll: '3rd BE' },
+        { id: 1, name: 'Divyansh Verma', roll: '3rd BE',instagram:'' },
         { id: 2, name: 'Jatin Kaushik', roll: '3rd CHE' },
         { id: 3, name: 'Abhay Sonkar', roll: '3rd CHE' },
       ],
@@ -47,7 +47,7 @@
         { id: 22, name: 'Aashika Nath', roll: '3rd EE ' },
         { id: 23, name: 'Harsh Pathak', roll: '2nd CSE' },
         { id: 23, name: 'Govind Kumar', roll: '2nd CSE' },
-        { id: 23, name: 'Sukrit Prakash', roll: '2nd CSE' },
+        { id: 23, name: 'Sukrit Prakash', roll: '2nd CSE',instagram:'https://www.instagram.com/sukritprakashsingh?igsh=dTNzbGJzcmd3NTg2' },
         { id: 23, name: 'Sumit Singh', roll: '2nd CSE' },
         { id: 23, name: 'Harsh Chaturvedi', roll: '2nd ME' },
       ],

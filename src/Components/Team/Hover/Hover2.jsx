@@ -21,9 +21,9 @@ const Hover = (props) => {
     </span>
     <span className="cards--three__circle"></span>
     <ul className="cards--three__list">
-      <li><i className="fab fa-facebook-f"></i></li>
-      <li><i className="fab fa-twitter"></i></li>
-      <li><i className="fab fa-linkedin-in"></i></li>
+      <li><a href='{props.instagram}'></a><i className="fab fa-instagram"></i></li>
+      <li><a href='{props.twitter}'></a><i className="fab fa-twitter" ></i></li>
+      <li><a href='{props.linkedin}'></a><i className="fab fa-linkedin-in"></i></li>
     </ul>
   </div>
   

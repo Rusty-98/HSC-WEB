@@ -23,8 +23,8 @@ function App() {
   return (
     <>
       {loading ? (
-        <div className="w-full h-screen absolute z-[9999] flex items-center justify-center backdrop-blur-xl">
-          <img src="/intro.gif" alt="" className='mx-auto rounded-3xl' />
+        <div className="w-[100vw] bg-black h-screen absolute z-[9999] flex items-center justify-center backdrop-blur-xl">
+          <img src="/load.svg" alt="" className='md:w-[25%]' />
         </div>
       ) : (
         <div className='w-full flex flex-col min-h-screen bg-black'>

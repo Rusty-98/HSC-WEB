@@ -9,7 +9,7 @@ import './index.css'
 import AppWithFallback from './App.jsx'
 import EventWithFallback from './Components/Events/Event.jsx';
 import TeamWithFallback from './Components/Team/Team.jsx';
-import Gallary from './Components/throwback/gallary.tsx';
+import Gallary from './Components/throwback/newgallary.jsx';
 import Navbar from './Components/Navbar/Navbar.jsx';
 import Footer2 from './Components/Footer/Footer2.jsx';
 

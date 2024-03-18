@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { GrInstagram } from "react-icons/gr";
+import { useEffect, useState } from "react";
 import { IoCall } from "react-icons/io5";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -83,8 +82,8 @@ const Home = () => {
                                     <img src={item.pic} alt="" className="object-fill w-full h-full hover:scale-[1.03] transition-all ease-linear" />
                                 </div>
                                 <div className="relative w-[95%] md:w-2/3">
-                                    <p className="para h-1/2 pt-2 md:pt-20 px-6 text-[#ddbea8] md:text-3xl text-center" data-aos="fade-up">{item.desc}</p>
-                                    <div className="cont absolute md:bottom-10 h-10 md:text-6xl w-full flex justify-center items-center gap-10">
+                                    <p className="para h-1/2 pt-4  px-6 text-[#ddbea8] text-2xl font-semibold text-center" data-aos="fade-up">{item.desc}</p>
+                                    <div className="cont absolute h-10 w-full bottom-10 flex justify-center items-center gap-10">
                                         <img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-instagram-icon-png-image_6315974.png" alt="" className="insta md:h-14 cursor-pointer text-[#ddbea8] hover:scale-[1.05]" onClick={() => handleInstaClickGruv(item.insta)} />
                                         {/* <GrInstagram className="cursor-pointer text-[#ddbea8] hover:scale-[1.05]" /> */}
                                         <IoCall className="cursor-pointer text-[#ddbea8] hover:scale-[1.05]" />
@@ -106,27 +105,28 @@ const data = [
         head: "DC",
         desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti in impedit alias libero voluptas corporis itaque tempore, odit quas tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, qui? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, unde.',
         pic: "https://plus.unsplash.com/premium_photo-1675448891119-bda089d46450?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D",
-        bg: './DC.jpg',
+        bg: './DC.webp',
         insta: 'https://www.instagram.com/dchbtu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
     },
     {
         head: "GRUV",
         desc: "Gruv is the sole dance society of our college, offering a platform to express creativity through movement. Regardless of skill level or background, everyone is welcome to choreograph or interpret routines. We believe dance is inclusive, providing opportunities for all to grow as dancers, whether seasoned performers or beginners.",
         pic: "https://plus.unsplash.com/premium_photo-1675448891094-0f3acc556fdb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDV8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D",
-        bg: './groove.jpg',
+        bg: './groove.webp',
         insta: 'https://www.instagram.com/gruv_hbtu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
     },
     {
         head: "OCTAVE",
         desc: "OCTAVE, HBTU's vibrant music society, is more than a club; it's a diverse musical family. From classical to modern, members blend talents, creating a unique symphony of unity. Embracing various genres, they nurture creativity and collaboration, celebrating every note's beauty. Joining OCTAVE means joining a harmonious family of melody-makers.",
         pic: "https://plus.unsplash.com/premium_photo-1675448891119-bda089d46450?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D",
-        bg: './oct.png',
+        bg: './oct.webp',
         insta: 'https://www.instagram.com/octave_hbtu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
     },
     {
         head: "KALAKASH",
         desc: "Kalakaksh, HBTU's official art club, embodies the timeless essence of art. From Leonardo da Vinci's Mona Lisa to Banksy's balloon girl, art has inspired generations. It mirrors love and culture, celebrating a nation's diversity. Kalakaksh transforms love into visual art, offering ample opportunities for talent to flourish and thrive.",
         pic: "https://plus.unsplash.com/premium_photo-1675448891094-0f3acc556fdb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDV8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D",
-        insta: 'https://www.instagram.com/kalakaksh_hbtu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
+        insta: 'https://www.instagram.com/kalakaksh_hbtu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+        bg: './kala2.webp'
     },
 ];

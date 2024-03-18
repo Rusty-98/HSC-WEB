@@ -1,4 +1,3 @@
-import React from 'react'
 const Footer = () => {
   return (
     <div className='h-[90vh] flex flex-col items-center md:items-start md:flex-row w-[80%] ml-auto mr-auto'>
@@ -14,7 +13,7 @@ const Footer = () => {
             <p className='text-xl text-center md:text-left text-[#ddbea8] w-full md:w-[65%] mt-5 md:mt-10'>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quo eum non laboriosam earum iste aliquid. Veniam porro architecto officiis?
             </p>
-            <button className='border-4 border-[#F3DFC1] text-[#ddbea8] rounded-[50px] mt-10 px-6 py-4 text-xl font-bold font-serif'>
+            <button className='border-2 border-white bg-gray-800 text-[#ddbea8] rounded-[50px] mt-10 px-6 py-4 text-xl font-bold font-serif'>
                 BOOK NOW
             </button>
         </div>

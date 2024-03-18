@@ -6,7 +6,7 @@ import photos from './collection.js'; // Importing the array of photo objects
 
 const Gallery = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 bg-blue-200 p-4 rounded-lg">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 bg-blue-200 p-4 py-20 rounded-lg">
       {photos.map(photo => (
         <div key={photo.id} className="overflow-hidden rounded-lg shadow-lg">
           <img src={photo.src} alt={photo.alt} className="w-full h-full object-cover rounded-t-lg" />

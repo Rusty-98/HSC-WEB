@@ -102,30 +102,30 @@ export default Home;
 
 const data = [
     {
-        head: "DC",
-        desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti in impedit alias libero voluptas corporis itaque tempore, odit quas tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, qui? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, unde.',
-        pic: "https://plus.unsplash.com/premium_photo-1675448891119-bda089d46450?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D",
+        head: "Drama Club",
+        desc: 'The Dramatics Club at Harcourt Butler Technical University is a dynamic hub for aspiring actors and theater enthusiasts. This vibrant community offers a platform for students to explore acting, directing, and various aspects of theater production. The events conducted by the club include Nukkad Natak, Dramatic Night, mimes, acts and much more! A stage for a creative space where passion meets the stage, and together, we bring stories to life.',
+        pic: "/logo.webp",
         bg: './DC.webp',
         insta: 'https://www.instagram.com/dchbtu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
     },
     {
         head: "GRUV",
         desc: "Gruv is the sole dance society of our college, offering a platform to express creativity through movement. Regardless of skill level or background, everyone is welcome to choreograph or interpret routines. We believe dance is inclusive, providing opportunities for all to grow as dancers, whether seasoned performers or beginners.",
-        pic: "https://plus.unsplash.com/premium_photo-1675448891094-0f3acc556fdb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDV8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D",
+        pic: "/logo3.webp",
         bg: './groove.webp',
         insta: 'https://www.instagram.com/gruv_hbtu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
     },
     {
         head: "OCTAVE",
         desc: "OCTAVE, HBTU's vibrant music society, is more than a club; it's a diverse musical family. From classical to modern, members blend talents, creating a unique symphony of unity. Embracing various genres, they nurture creativity and collaboration, celebrating every note's beauty. Joining OCTAVE means joining a harmonious family of melody-makers.",
-        pic: "https://plus.unsplash.com/premium_photo-1675448891119-bda089d46450?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D",
+        pic: "/logo2.webp",
         bg: './oct.webp',
         insta: 'https://www.instagram.com/octave_hbtu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
     },
     {
-        head: "KALAKASH",
+        head: "KALAKAKSH",
         desc: "Kalakaksh, HBTU's official art club, embodies the timeless essence of art. From Leonardo da Vinci's Mona Lisa to Banksy's balloon girl, art has inspired generations. It mirrors love and culture, celebrating a nation's diversity. Kalakaksh transforms love into visual art, offering ample opportunities for talent to flourish and thrive.",
-        pic: "https://plus.unsplash.com/premium_photo-1675448891094-0f3acc556fdb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDV8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D",
+        pic: "/logo4.webp",
         insta: 'https://www.instagram.com/kalakaksh_hbtu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
         bg: './kala2.webp'
     },
